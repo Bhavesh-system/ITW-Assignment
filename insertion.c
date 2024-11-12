@@ -21,7 +21,7 @@ void printArray(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {12, 11, 13, 5, 6};
+    int arr[] = {1, 31, 3, 2, 600};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     insertionSort(arr, n);
